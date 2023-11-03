@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: bgdk-replicas
 resources:
 - ../../base
-- bgdk-ns.yaml
+- bgdk-replicas-ns.yaml
 patchesJson6902:
   - target:
       version: v1
